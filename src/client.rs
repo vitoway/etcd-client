@@ -48,7 +48,7 @@ use tokio::sync::mpsc::Sender;
 
 use tonic::transport::Endpoint;
 
-use tower::discover::Change;
+use tonic::transport::channel::Change;
 
 const HTTP_PREFIX: &str = "http://";
 const HTTPS_PREFIX: &str = "https://";
